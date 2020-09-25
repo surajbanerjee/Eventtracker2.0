@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "467925215711",
+    "firebase_url": "https://eventtracker-9b681.firebaseio.com",
+    "project_id": "eventtracker-9b681",
+    "storage_bucket": "eventtracker-9b681.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467925215711:android:1d05888f70259e62883c6a",
+        "android_client_info": {
+          "package_name": "info.EventTracker.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467925215711-v77d78319676n6l71ksoiisosl21iv05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_W4xO_fO0H15m5OPZIB4KyaylMNMRWgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467925215711-v77d78319676n6l71ksoiisosl21iv05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Eventtracker</string>
+    <string name="events_list">Events list</string>
+    <string name="add_new_event">ADD NEW EVENT</string>
+    <string name="log_out">log out</string>
+    <string name="collage_name">Collage Name</string>
+    <string name="event_date">Event date</string>
+    <string name="event_description">Event Description</string>
+    <string name="event_name">Event Name</string>
+    <string name="add">Add</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="date">Date</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>

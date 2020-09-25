@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addback"
+    tools:context=".addnew">
+
+    <EditText
+        android:id="@+id/Description"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="275dp"
+        android:background="#BFC808E0"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="Event Description"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#F4F0F0" />
+
+    <EditText
+        android:id="@+id/CollegeName"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="412dp"
+        android:background="#BE9808E0"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="Event place"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#F8F3F3"
+        android:textColorHint="#ECE5E5" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="4dp"
+        android:background="#AAAAAA"
+        android:fontFamily="@font/exo_medium"
+        android:text="logout"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="604dp"
+        android:background="#99E2D8B3"
+        android:fontFamily="@font/aclonica"
+        android:text="CreatE YouR OwN EvenT"
+        android:textColor="#DAF83800"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="643dp"
+        android:background="#17E2D8B3"
+        app:srcCompat="@drawable/frontlogo" />
+
+    <EditText
+        android:id="@+id/EventName"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="476dp"
+        android:background="#BF8808E0"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="Event name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#F8F5F5"
+        android:textColorHint="#ECE7E7" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="185dp"
+        android:background="#B5C8D141"
+        android:fontFamily="@font/aldrich"
+        android:text="CREATE"
+        android:textColor="#F3EBE9"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="350dp"
+        android:background="#BFA808E0"
+        android:ems="10"
+        android:fontFamily="@font/aldrich"
+        android:hint="Event Date"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textColor="#DFD8D8"
+        android:textColorHint="#FAF6F6" />
+
+
+</RelativeLayout>
